@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
-import styles from "./index.module.scss";
+import { Box } from "@chakra-ui/react";
 
 const HomePage: NextPage = () => {
-    return <div className={styles.HomePage}>Hola</div>;
+    return <Box>Hola</Box>;
 };
 
 export default HomePage;
